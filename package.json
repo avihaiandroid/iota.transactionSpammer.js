@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/pRizz/iota.transactionSpammer.js/issues"
   },
-  "homepage": "https://github.com/pRizz/iota.transactionSpammer.js#readme"
+  "homepage": "https://github.com/pRizz/iota.transactionSpammer.js#readme",
+  "dependencies": {
+    "iota.lib.js": "^0.4.0"
+  }
 }
