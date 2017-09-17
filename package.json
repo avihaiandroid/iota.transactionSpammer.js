@@ -1,0 +1,26 @@
+{
+  "name": "iota.transactionspammer.js",
+  "version": "1.0.0",
+  "description": "Spams the IOTA newtork with dummy messages, confirming transactions while doing so",
+  "main": "src/transactionSpammer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pRizz/iota.transactionSpammer.js.git"
+  },
+  "keywords": [
+    "iota",
+    "spammer",
+    "tangle",
+    "blockchain",
+    "PoW"
+  ],
+  "author": "Peter Ryszkiewicz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pRizz/iota.transactionSpammer.js/issues"
+  },
+  "homepage": "https://github.com/pRizz/iota.transactionSpammer.js#readme"
+}
