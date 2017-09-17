@@ -4,6 +4,9 @@
   "description": "Spams the IOTA newtork with dummy messages, confirming transactions while doing so",
   "main": "src/transactionSpammer.js",
   "scripts": {
+    "compile": "gulp --harmony",
+    "dev": "webpack-dev-server",
+    "prepublish": "npm run compile",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -27,5 +30,18 @@
     "curl.lib.js": "^1.0.15",
     "iota.lib.js": "^0.4.0",
     "wolfy87-eventemitter": "^5.2.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^4.5.0",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^4.0.0",
+    "gulp-mocha": "^3.0.1",
+    "gulp-nsp": "^2.4.2",
+    "gulp-util": "^3.0.8",
+    "mocha": "^3.2.0",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^1.16.2",
+    "webpack-stream": "^4.0.0"
   }
 }
